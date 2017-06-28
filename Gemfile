@@ -23,6 +23,7 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'react-rails', '~> 2.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'foundation-rails', '~> 6.3', '>= 6.3.1.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

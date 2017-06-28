@@ -1,2 +1,5 @@
   <h1><%= @blog.title %></h1>
-  <h3><%= @blog.body %></h3>
+  <h5><%= @blog.body %></h5>
+  <hr>
+  <h3>comments</h3>
+  <%= react_component('Comment', {author: 'Bob', body: 'what up', rank: 6}) %>
