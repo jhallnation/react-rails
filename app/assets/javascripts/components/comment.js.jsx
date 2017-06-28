@@ -1,8 +1,8 @@
 var Comment = React.createClass({
   propTypes: {
     author: React.PropTypes.string,
-    body: React.PropTypes.text,
-    rank: React.PropTypes.integer
+    body: React.PropTypes.string,
+    rank: React.PropTypes.number
   },
   render: function() {
     return (

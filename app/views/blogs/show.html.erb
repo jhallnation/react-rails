@@ -2,4 +2,4 @@
   <h5><%= @blog.body %></h5>
   <hr>
   <h3>comments</h3>
-  <%= react_component('Comment', {author: 'Bob', body: 'what up', rank: 6}) %>
+  <%= react_component('CommentList', {comments: raw(render(template: 'comments/index.json.jbuilder'))}) %>
